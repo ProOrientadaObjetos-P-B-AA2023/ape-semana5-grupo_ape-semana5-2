@@ -30,8 +30,6 @@ public class VentaProducto {
             this.descuento = this.precioinicial * 0.10;
         } else if (this.precioinicial < 1000) {
             this.descuento = this.precioinicial * 0.05;
-        } else {
-            this.descuento = descuento;
         }
     }
 
